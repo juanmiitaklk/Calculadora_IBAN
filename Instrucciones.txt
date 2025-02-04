@@ -1,0 +1,14 @@
+
+
+PRIMEROS PASOS
+
+- Abre una terminal: Terminal > New Terminal
+
+- Escribe Node Script.js
+
+- Te respondera un enlace con un puerto: http://127.0.0.5:8085/
+
+- Haz click encima y follow link
+
+- En el enlace escribe: http://127.0.0.5:8085/iban y te llevará a las instrucciones del programa
+

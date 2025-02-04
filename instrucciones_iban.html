@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrucciones para el Cálculo del IBAN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        code {
+            background-color: #eaeaea;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>---------------- COMO UTILIZAR EL SCRIPT ----------------- </h1>
+
+    <h2>¿Qué es un IBAN?</h2>
+    <p>El IBAN es un código que identifica de forma única una cuenta bancaria a nivel internacional.</p>
+
+    <h2>1º Ejecuta el servidor usando el comando (en la terminal del entorno):</h2>
+    <h5>Si no lo tienes instalado, instala node.js</h5>
+    <code>node Script.js</code>
+
+    <br>
+
+    <h2>2º Verás un mensaje en la consola que indica que el servidor está en funcionamiento en:    </h2>
+    <code>http://127.0.0.5:8085/</code>
+
+    <br>
+
+    <h2>3º Haz click en el mensaje de la consola anterior es decir aqui:</h2><code> http://127.0.0.5:8085/ </code>
+
+    <br> 
+
+    <h2>4º Verás un mensaje de bienvenida:</h2>
+    <p>"Bienvenido al servidor de IBAN"</p>
+
+    <h2>5º Dirigete al enlace de la pagina:</h2> <code>http://127.0.0.5:8085/iban</code>
+
+    <br>
+
+    <h2>6º Escribe despues del enlace +  <code>?num=12345678901234567890<</code>(aqui pones el numero de iban)</h2>
+    <h4>Quedaria algo tal que asi:</h4>
+    <code>http://127.0.0.5:8085/iban?num=12345678901234567890</code>
+
+    <h2>7º Dale a la tecla enter y espera el resultado</h2>
+
+    <code>IBAN completo: ES9812345678901234567890</code>
+
+    <p>Asegúrate de reemplazar el número por tu propio número de 20 dígitos.</p>
+
+</body>
+</html>
